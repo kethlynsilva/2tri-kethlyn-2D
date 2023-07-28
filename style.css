@@ -1,5 +1,5 @@
 :root { 
-    --cor-de-fundo: #ff0000;
+    --cor-de-fundo: #ff00d4;
     --cor-de-cabecalho: #c300ff; 
     --fundo-menu: #ff9595;
 }
@@ -13,7 +13,7 @@ body {
 }
 
 .cabecalho-titulo { 
-    font-size: 36px;
+    font-size: 50px;
     font-weight: 700;
     padding: 12px;
     text-align: center;
@@ -28,3 +28,19 @@ body {
     text-align: center;
     border-top: 1px solid;
 }
+
+#burguer {
+    background-color: #c300ff;
+    display: block;
+    color: azure;
+    text-align: center;
+    padding: 10px;
+
+}
+
+#menu {
+    display: none;
+
+}
+
+

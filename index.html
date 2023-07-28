@@ -7,10 +7,35 @@
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
     <title>lomintly cursos</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
 </head>
 <body>
     <header class="cabecalho">
-        <h1 class="cabecalho-titulo>"> kethlyn </h1>
+        <h1 class="cabecalho-titulo"> kethlyn </h1>
+        <span id="burguer" class="material-symbols-outlined"
+        onclick="clickMenu ()">menu</span>
+        <nav id="menu" class="cabecalho-menu">
+
+            <script>
+            
+            function clickMenu() {
+            if (menu.style.display == 'block') {
+            menu.style.display = 'none';
+            } else {
+            menu.style.display = 'block';
+            }
+            }
+            
+            </script>
+            <style>
+                .material-symbols-outlined {
+                  font-variation-settings:
+                  'FILL' 0,
+                  'wght' 400,
+                  'GRAD' 0,
+                  'opsz' 48
+                }
+                </style>
         <nav class="cabecalho-menu"> 
             <ul> 
                 <li> <a class="cabecalho-menu-item"href="#"> Disciplina</a></li>
